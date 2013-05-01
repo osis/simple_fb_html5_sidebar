@@ -15,7 +15,7 @@ body .viewport {
   overflow: hidden;
 }
 
-body .frame {
+body .viewport .frame {
   position: absolute;
   width: 200%;
   height: 100%;
@@ -24,23 +24,23 @@ body .frame {
   left: 0; 
 }
 
-body .frame .navbar .navbar-inner {
+body .viewport .frame .navbar .navbar-inner {
   border-radius: 0;
   padding-left: 5px; 
 }
 
-body .frame .menu {
+body .viewport .frame .menu {
   height: 100%;
   /* background-color: #3D6AA2; */ 
 }
 
-body .frame .menu.collapse {
+body .viewport .frame .menu.collapse {
   float: left;
   height: 100% !important;
   width: auto; 
 }
 
-body .frame .menu.collapse.height {
+body .viewport .frame .menu.collapse.height {
   position: relative;
   height: 0;
   overflow: hidden;
@@ -50,7 +50,7 @@ body .frame .menu.collapse.height {
   transition: height 0.35s ease; 
 }
 
-body .frame .menu.collapse.width {
+body .viewport .frame .menu.collapse.width {
   position: relative;
   width: 0;
   overflow: hidden;
@@ -60,43 +60,43 @@ body .frame .menu.collapse.width {
   transition: width 0.35s ease; 
 }
 
-body .frame .menu.collapse.in.width {
+body .viewport .frame .menu.collapse.in.width {
   width: auto; 
 }
 
-body .frame .menu.collapse.in.height {
+body .viewport .frame .menu.collapse.in.height {
   height: auto; 
 }
 
-body .frame .menu .collapse-inner {
+body .viewport .frame .menu .collapse-inner {
   position: relative;
   width: 250px;
   height: 100%; 
 }
 
-body .frame .menu .navbar .navbar-inner {
+body .viewport .frame .menu .navbar .navbar-inner {
   text-align: center;
   color: grey;
   font-size: 1.2em;
   line-height: 38px; 
 }
 
-body .frame .menu .nav-stacked {
+body .viewport .frame .menu .nav-stacked {
   padding: 0 10px; 
 }
 
-body .frame .view {
+body .viewport .frame .view {
   width: 50%;
   height: 100%;
   overflow: hidden; 
 }
 
-body .frame .view .navbar .navbar-inner .btn-navbar {
+body .viewport .frame .view .navbar .navbar-inner .btn-navbar {
   display: block;
   float: left; 
 }
 
-body .frame .view #content {
+body .viewport .frame .view #content {
   margin: auto 15px;
   text-align: justify; 
 }
