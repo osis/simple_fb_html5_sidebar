@@ -1,3 +1,11 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+
 body {
   position: absolute;
   width: 100%;
@@ -5,7 +13,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 body .viewport {
   position: absolute;
   top: 0;
@@ -21,12 +28,15 @@ body .viewport .frame {
   height: 100%;
   top: 0;
   bottom: 0;
-  left: 0; 
+  left: 0;
+  
 }
 
 body .viewport .frame .navbar .navbar-inner {
   border-radius: 0;
-  padding-left: 5px; 
+  padding-left: 5px;
+
+  
 }
 
 body .viewport .frame .menu {
@@ -72,6 +82,7 @@ body .viewport .frame .menu .collapse-inner {
   position: relative;
   width: 250px;
   height: 100%; 
+
 }
 
 body .viewport .frame .menu .navbar .navbar-inner {
@@ -94,9 +105,17 @@ body .viewport .frame .view {
 body .viewport .frame .view .navbar .navbar-inner .btn-navbar {
   display: block;
   float: left; 
+ 
 }
 
 body .viewport .frame .view #content {
-  margin: auto 15px;
-  text-align: justify; 
+  margin-top: 350px;
+  text-align: justify;
+  text-transform: uppercase;
+  text-align:center;
+  background-color: gray;
 }
+body{
+  background-color: indianred;
+}
+
